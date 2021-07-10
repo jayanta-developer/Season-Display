@@ -1,0 +1,49 @@
+.left-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.right-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.season-display {
+  color: rgb(205, 230, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.season-display h1 {
+  /* color: seagreen; */
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.season-display h3{
+  color: gray;
+}
+
+.winter {
+  background: #87cefa;
+}
+.summer {
+  background: #ff8c00;
+}
+
+/* Error Page  */
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(190, 93, 93);
+}
+
+.error-massage {
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: #ffffff;
+}
