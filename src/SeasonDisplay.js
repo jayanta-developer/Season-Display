@@ -1,5 +1,5 @@
 import React from "react";
-import seasonDisplay from "./style/seasonDisplay.css";
+// import seasonDisplay from "./style/seasonDisplay.css";
 
 const getSeason = (lat, month) => {
   if (month > 2 && month < 9) {
